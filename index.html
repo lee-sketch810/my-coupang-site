@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쿠팡 선물 추천</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            color: #346aff;
+            margin-bottom: 40px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+        }
+        .menu-item h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .menu-item p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .menu-item a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #346aff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .menu-item a:hover {
+            background-color: #2a54cc;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .link-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #346aff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 0 10px;
+        }
+        .link-button:hover {
+            background-color: #2a54cc;
+        }
+        .icon {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>선물 추천 사이트</h1>
+        <img src="img/img.png" alt="선물 이미지" style="width: 60%; margin-bottom: 20px;">
+        <p style="font-style: italic; color: #666; margin-bottom: 20px;">"선물은 마음을 전하는 작은 기적, 당신의 특별한 순간을 더욱 빛나게 해드립니다."</p>
+        <div class="links">
+            <a href="housewarming.html" class="link-button">
+                <div class="icon">🏠</div>
+                집들이 선물 추천
+            </a>
+            <a href="birthday_self.html" class="link-button">
+                <div class="icon">🎂</div>
+                나에게 생일선물
+            </a>
+        </div>
+        <div style="margin-top: 30px; color: #666; font-size: 0.9em;">
+            이 포스팅은 쿠팡 파트너스 활동의 일환으로 이에 따른 일정액의 수수료를 제공받습니다
+        </div>
+    </div>
+</body>
+</html> 
