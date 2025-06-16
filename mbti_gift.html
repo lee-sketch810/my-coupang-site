@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI별 선물 추천</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            color: #2a54cc;
+            margin-bottom: 18px;
+        }
+        .notice {
+            margin-bottom: 30px;
+            color: #666;
+            font-size: 0.95em;
+        }
+        .mbti-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 28px;
+            padding: 20px 0 10px 0;
+        }
+        .mbti-card {
+            background: white;
+            padding: 28px 22px 22px 22px;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+            text-align: left;
+            transition: transform 0.3s;
+            border: 1.5px solid #e0e4ea;
+            margin-bottom: 18px;
+        }
+        .mbti-card:hover {
+            transform: translateY(-7px);
+        }
+        .mbti-type {
+            font-size: 1.18em;
+            font-weight: bold;
+            color: #2a54cc;
+            margin-bottom: 10px;
+        }
+        .mbti-feature {
+            color: #555;
+            font-size: 1.02em;
+            margin-bottom: 16px;
+        }
+        .mbti-gift {
+            margin-bottom: 10px;
+            font-size: 1.13em;
+            font-weight: 600;
+            color: #222;
+            text-align: center;
+        }
+        .mbti-divider {
+            border: none;
+            border-top: 1.5px solid #e0e4ea;
+            margin: 18px 0 12px 0;
+        }
+        .gift-btn {
+            display: block;
+            margin: 0 auto 14px auto;
+            padding: 10px 24px;
+            background: #e26a6a;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: 500;
+            text-align: center;
+            transition: background 0.2s;
+        }
+        .gift-btn:hover {
+            background: #c94d4d;
+        }
+        .mbti-reason {
+            color: #666;
+            font-size: 1.01em;
+            margin-top: 10px;
+        }
+        .back-button {
+            margin-top: 40px;
+        }
+        .back-button a {
+            padding: 10px 22px;
+            background-color: #000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .back-button a:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MBTI별 선물 추천</h1>
+        <div class="notice">
+            각 MBTI 유형의 특징에 맞춰 엄선한 선물 추천 리스트입니다.<br>
+            (쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받을 수 있습니다)
+        </div>
+        <div class="mbti-list">
+            <div class="mbti-card">
+                <div class="mbti-type">ISTJ 🗂️ (현실적, 신중, 실용적)</div>
+                <div class="mbti-feature">실용적이고 오래 쓸 수 있는 물건을 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">락앤락 더 클리어 밀폐용기세트, 2세트, 밀폐용기 5종</div>
+                <a href="https://link.coupang.com/a/czv5Ly" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">주방에서 오래 쓸 수 있는 실용템, 정리정돈을 좋아하는 ISTJ에게 딱!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ISFJ 🧺 (따뜻함, 배려, 안정)</div>
+                <div class="mbti-feature">정성, 배려, 실용성, 감성적이면서도 실용적인 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">네스프레소 에센자 미니 캡슐커피머신</div>
+                <a href="https://link.coupang.com/a/czv89B" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">집안 분위기를 따뜻하게, 실용성과 감성을 모두 만족!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">INFJ 🌱 (이상주의, 감성, 깊이)</div>
+                <div class="mbti-feature">의미 있는 선물, 감성적이고 스토리가 있는 물건 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">레고 크리에이터 엑스퍼트 10280 꽃다발, 혼합색상, 1개</div>
+                <a href="https://link.coupang.com/a/czv9ZQ" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">시들지 않는 꽃, 감성 인테리어와 힐링을 동시에!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">INTJ 🧠 (분석적, 전략적, 독립적)</div>
+                <div class="mbti-feature">실용적이면서도 스마트한 아이템 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">로지텍 무선 블루투스 멀티 디바이스 일반형 키보드</div>
+                <a href="https://link.coupang.com/a/czwbl3" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">효율적인 작업 환경을 위한 스마트 아이템!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ISTP 🛠️ (실용, 탐구, 도구)</div>
+                <div class="mbti-feature">직접 써보고 만질 수 있는 도구, 기능적인 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">[KC인증]보쉬 충전 임팩 전동 드릴 드라이버 GSB 120-LI(1B)</div>
+                <a href="https://link.coupang.com/a/czwd3Q" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">집안 수리, DIY에 관심 많은 ISTP에게 딱!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ISFP 🎨 (감성, 자유, 미적)</div>
+                <div class="mbti-feature">감성적이고 예쁜 소품, 인테리어/아트 관련 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">마켓비 DOLIA 단스탠드 E26 KS2444T</div>
+                <a href="https://link.coupang.com/a/czwfIT" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">감성적인 공간을 완성해주는 무드등!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">INFP 🦄 (이상, 감성, 창의)</div>
+                <div class="mbti-feature">의미 있는 소품, 감성적이고 독특한 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">테디테일즈 시그니처 레나베어 키링</div>
+                <a href="https://link.coupang.com/a/czwgNb" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">동화 같은 감성 소품, 나만의 세계를 꾸미는 INFP에게 딱!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">INTP 🧩 (논리, 탐구, 창의)</div>
+                <div class="mbti-feature">지적 호기심, 실험적이고 신기한 아이템 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">브리츠 16W 고출력 고감도 라디오 블루투스 스피커 BA-HMK31 Plus</div>
+                <a href="https://link.coupang.com/a/czwhW2" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">고음질 사운드와 신기한 RGB LED, 기술적 감성!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ESTP 🏃 (활동, 도전, 현실)</div>
+                <div class="mbti-feature">액티브하고 실용적인 아이템, 야외/스포츠 관련 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">뉴발란스 남녀공용 3단형 스트링 백팩</div>
+                <a href="https://link.coupang.com/a/czwj8z" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">활동적인 라이프스타일에 어울리는 가방!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ESFP 🎧 (사교, 감각, 즐거움)</div>
+                <div class="mbti-feature">트렌디하고 예쁜 소품, 패션/뷰티/음악 관련 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">Apple 2024 에어팟 4세대 블루투스 이어폰 유선충전</div>
+                <a href="https://link.coupang.com/a/czwlvk" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">음악과 일상을 즐기는 ESFP에게 딱!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ENFP 🌈 (열정, 창의, 자유)</div>
+                <div class="mbti-feature">독특하고 개성 있는 아이템, 감성적이고 창의적인 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">브리츠 블루투스 스피커 BZ-JB6800</div>
+                <a href="https://link.coupang.com/a/czwmRR" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">감성적인 음악과 분위기를 즐기는 ENFP에게 딱!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ENTP 💡 (창의, 논쟁, 도전)</div>
+                <div class="mbti-feature">신기하고 유니크한 아이템, 대화거리/토이/테크 선물 선호</div>
+                <div class="mbti-divider"></div>
+                <div class="mbti-gift">레고 아트 LOVE 31214</div>
+                <a href="https://link.coupang.com/a/czwphV" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">창의력과 논리력을 자극하는 독특한 레고 세트!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ESTJ 📊 (현실, 조직, 리더십)</div>
+                <div class="mbti-feature">실용적이고 품질 좋은 아이템, 조직적이고 효율적인 선물 선호</div>
+                <div class="mbti-gift">브라운 전기면도기 시리즈5</div>
+                <a href="https://www.coupang.com/vp/products/1768621?itemId=15025213" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">실용적이고 내구성 좋은 전기면도기!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ESFJ 🍰 (사교, 배려, 조화)</div>
+                <div class="mbti-feature">따뜻하고 정성스러운 선물, 실용성과 감성을 모두 중시</div>
+                <div class="mbti-gift">[뱅네프생토노레] 신제품 새로운향 사봉 파퓨메 로얄 1779 프랑스향 향수비누 시즌2</div>
+                <a href="https://link.coupang.com/a/czwsmQ" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">프랑스 왕실의 우아함을 담은 향수비누, ESFJ의 따뜻한 마음을 전하는 감성 선물!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ENFJ 🌟 (리더십, 배려, 영감)</div>
+                <div class="mbti-feature">의미 있고 감동을 주는 선물, 감성적이면서도 실용적인 아이템 선호</div>
+                <div class="mbti-gift">루이델라 14K 18K 여성 데일리 웬디 플라워 클로버 금 목걸이</div>
+                <a href="https://link.coupang.com/a/czww8G" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">행운과 사랑을 담은 플라워 클로버 목걸이, ENFJ의 따뜻한 리더십과 감성을 빛내줄 선물!</div>
+            </div>
+            <div class="mbti-card">
+                <div class="mbti-type">ENTJ 🏆 (리더십, 전략, 목표지향)</div>
+                <div class="mbti-feature">실용적이고 고급스러운 아이템, 자기계발/생산성 관련 선물 선호</div>
+                <div class="mbti-gift">삼성전자 갤럭시 핏3 SM-R390N</div>
+                <a href="https://link.coupang.com/a/czwynX" target="_blank" class="gift-btn">상품 보기</a>
+                <div class="mbti-reason">목표를 향해 달리는 ENTJ에게 어울리는 스마트 밴드! 건강과 자기관리를 동시에 챙길 수 있는 최고의 선물.</div>
+            </div>
+        </div>
+        <div class="back-button">
+            <div style="color:#888; font-size:0.97em; margin-bottom:18px;">가격은 변동될 수 있으니 '상품보기'를 클릭해 확인하세요</div>
+            <a href="index.html">메인 페이지로 돌아가기</a>
+        </div>
+        <div style="margin-top:48px; display:flex; justify-content:center;">
+            <div style="width:680px; max-width:100%;">
+                <script src="https://ads-partners.coupang.com/g.js"></script>
+                <script>
+                    new PartnersCoupang.G({"id":870906,"trackingCode":"AF7483354","subId":"daumblog","template":"carousel","width":"680","height":"140"});
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
